@@ -1,14 +1,14 @@
-n=int(input())
-num=int(input())
+n=int(input("enter no.of numbers:"))
+num=int(input("enter number:"))
 large=num
 small=num
 i=1
 while(i<n):
-   num=int(input())
+   num=int(input("enter number:"))
    if(num>large):
       large=num
    else:
       small=num
    i=i+1
 difference=large-small
-print(difference)
+print("difference is:",difference)
